@@ -6,7 +6,7 @@ long int Wall, h[100001], x, hcopy[100001];
 
 int gcdfunction(long int a, long int b)
 {
-	while (b != 0)
+	while (a != 0 && b != 0)
 	{
 		lend = b;
 		b = a % b;
